@@ -1,7 +1,7 @@
-package com.springlearner.girl;
+package com.springlearner.girl.controller;
 
+import com.springlearner.girl.properties.GirlProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

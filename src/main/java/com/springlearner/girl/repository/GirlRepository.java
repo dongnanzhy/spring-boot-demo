@@ -1,5 +1,6 @@
-package com.springlearner.girl;
+package com.springlearner.girl.repository;
 
+import com.springlearner.girl.domain.Girl;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,5 +1,7 @@
-package com.springlearner.girl;
+package com.springlearner.girl.service;
 
+import com.springlearner.girl.domain.Girl;
+import com.springlearner.girl.repository.GirlRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
