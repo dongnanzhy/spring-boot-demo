@@ -3,6 +3,8 @@ package com.springlearner.girl.controller;
 import com.springlearner.girl.domain.Girl;
 import com.springlearner.girl.repository.GirlRepository;
 import com.springlearner.girl.service.GirlService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +15,8 @@ import java.util.Optional;
 
 @RestController
 public class GirlController {
+
+    private final static Logger logger = LoggerFactory.getLogger(GirlController.class);
 
     @Autowired
     private GirlRepository girlRepository;
