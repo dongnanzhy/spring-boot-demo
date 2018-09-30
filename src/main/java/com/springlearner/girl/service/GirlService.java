@@ -38,4 +38,14 @@ public class GirlService {
             throw new GirlException(ResultEnum.NEW_TO_WORK);
         }
     }
+
+    /**
+     * 通过ID查血一个女生
+     * @param id
+     * @return
+     */
+    public Girl findOne(Integer id) {
+        Optional<Girl> girl = girlRepository.findById(id);
+        return girl.get();
+    }
 }
